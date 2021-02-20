@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact page</title>
+    <link rel="stylesheet" href="contact_css.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw=="
+    crossorigin="anonymous"
+  />
+  </head>
+  <body>
+    <div>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Electric Car</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+  
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home </a>
+            </li>
+  
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Contact Us <span class="sr-only">(current)</span> </a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#"
+                  ><i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                  <span class="sr-only">(current)</span></a
+                >
+              </li>
+              <li>
+                <input
+                  class="form-control mr-sm-2"
+                  type="text"
+                  placeholder="Search"
+                />
+                <button class="btn btn-success" type="submit">Search</button>
+              </li>
+            </ul>
+          </form>
+        </div>
+      </nav>
+    </div>
+    <!--contact section start-->
+    <div class="contact-section jaffa">
+      <div class="contact-info">
+        <div><i class="fas fa-map-marker-alt"></i>Neemrana,Rajasthan,India</div>
+        <div><i class="fas fa-envelope"></i>contact@email.com</div>
+        <div><i class="fas fa-phone"></i>+00 0000 000 000</div>
+        <div><i class="fas fa-clock"></i>Mon - Fri 8:00 AM to 6:00 PM</div>
+      </div>
+      <div class="contact-form">
+        <h2>Contact Us</h2>
+        <form class="contact" action="https://formspree.io/f/xwkwzgqq" method="post">
+          <input type="text" name="name" class="text-box" placeholder="Your Name" required><br>
+          <input type="email" name="email" class="text-box" placeholder="Your Email" required><br>
+          <label for="Reasons">Choose your Reason of Contact:</label> <br>
+          <select class ="text-box" name="Reasons" required>
+            <option value="Feedback" selected>Feedback</option>
+            <option value="Complaints">Complaints</option>
+            <option value="Provide Info">Provide Info</option>
+            <option value="Others">Others</option>
+          </select><br>
+          <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+          <input type="submit" name="submit" class="send-btn" value="Send">
+        </form>
+      </div>
+    </div>
+
+
+    <footer class="full-footer">
+      <div class="container top-footer p-md-3 p-1">
+        <div class="row">
+          <div class="col-md-3 pl-4 pr-4">
+            <img class="img-fluid" src="imgs/logo_text_white_small.png" alt="">
+            <h3>ELECTRIC CARS</h3>
+            <a href="#">Know more...</a><br>
+            
+          </div>
+  
+          <div class="col-md-3  pl-4 pr-4">
+            <h3>Important Links</h3>
+            <a href="#">Privacy Policy</a><br>
+            <a href="#">Youtube Channel Link </a><br>
+            <a href="#">Blog Articles </a><br>
+            <a href="#">Social Media</a>
+          </div>
+  
+          <div class="col-md-3  pl-4 pr-4">
+            <h3>Location</h3>
+            <p>NIIT UNIVERSITY
+              Neemrana , Rajasthan</p>
+          </div>
+  
+          <div class="col-md-3  pl-4 pr-4">
+            <h3>Contact Info</h3>
+            <a href="#"><i class="fas fa-phone"></i> +(91) 9090909090 </a><br>
+            <a href="#"><i class="fas fa-envelope"></i> abc@gmail.com </a><br>
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d241316.64333236168!2d72.74110193617271!3d19.082522317332813!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c6306644edc1%3A0x5da4ed8f8d648c69!2sMumbai%2C+Maharashtra!5e0!3m2!1sen!2sin!4v1547151374329"
+                frameborder="0"></iframe>
+            </div>
+  
+          </div>
+        </div>
+      </div>
+     
+    </footer>
+  
+  
+  
+    <script src="bootstrap/js/jquery-3.3.1.slim.min.js"></script>
+    <script src="bootstrap/js/popper.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    
+
+  </body>
+</html>
+      
