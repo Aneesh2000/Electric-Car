@@ -9,7 +9,7 @@
 
 .jaffa{
   min-height: 100vh;
-  background: url(images/background_contact.jpg) no-repeat;
+  background: url(background_contact.jpg) no-repeat;
   background-size: cover;
   display: flex;
   justify-content: center;
