@@ -80,3 +80,13 @@ button {
 .bottom-footer p {
   color: white;
 }
+.modelx {
+  top: auto;
+  bottom: 20px;
+  text-align: right !important;
+}
+.mach {
+  top: auto;
+  bottom: 20px;
+  text-align: left !important;
+}
