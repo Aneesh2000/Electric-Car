@@ -85,6 +85,12 @@ button {
   bottom: 20px;
   text-align: right !important;
 }
+.models {
+  top: auto;
+  bottom: 0px !important;
+  text-align: right !important;
+  
+}
 .mach {
   top: auto;
   bottom: 20px;
