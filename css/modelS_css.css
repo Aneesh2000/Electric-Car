@@ -82,43 +82,56 @@
   color: white;
 }
 .estyle2 {
-  width: 100%;
-  height: 600px;
-  background-image: url(../images/modelsframe1.jpg);
+  width: 90%;
+  height: 420px;
+  background-image: url(../images/modelsframe2.jpg);
   background-repeat: no-repeat;
   background-size: 100% 100%;
   margin: 20px 0 40px 0;
   color: white;
 }
-.pav{
+.pav {
   width: 98%;
   height: 600px;
   margin: 0px 15px 10px 15px;
 }
-.pav1{
-  width:98%;
-  height:550px;
+.pav1 {
+  width: 98%;
+  height: 550px;
   margin-top: 15px;
   margin-bottom: 15px;
 }
-
-.full-footer{
-  background-color: #243c4f;
-  
+.modelsframe {
+  display: flex;
+  height: 400px;
 }
-.top-footer p{
+.modelsframe div {
+  width: 50%;
+  margin-left: 50px;
+  font-family: 'Open Sans', sans-serif;
+}
+.modelsframe h1 {
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 32px;
+  color: #000;
+}
+.full-footer {
+  background-color: #243c4f;
+}
+.top-footer p {
   color: white;
 }
-.top-footer a{
+.top-footer a {
   color: white;
   font-weight: 600;
 }
-.top-footer h3{
+.top-footer h3 {
   color: white;
 }
-.bottom-footer{
+.bottom-footer {
   background-color: #031b2e;
 }
-.bottom-footer p{
+.bottom-footer p {
   color: white;
 }
