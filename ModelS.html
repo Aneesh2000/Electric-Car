@@ -62,6 +62,7 @@
         </form>
       </div>
     </nav>
+
     <div class="container">
       <div class="content">
         <div class="w3-container w3-left w3-animate-left">
@@ -97,7 +98,6 @@
           <div class="flip-box-front">
             <h1>High Impact Protection</h1>
             <h8>
-              <br />
               Model S is built from the ground up as an electric vehicle, with a high-strength architecture and floor-mounted battery pack for incredible occupant protection and low rollover risk. Every Model S includes
               Tesla’s latest active safety features, such as Automatic Emergency Braking, at no extra cost.</h8
             >
@@ -105,64 +105,53 @@
 
           <div class="flip-box-back">
             <h2>Simple Quotes</h2>
-            <h8>
-              <br />
-              Electric cars are going to be very important for urban transportation - Carlos Ghosn
-            </h8>
-            <h8>
-              <br />
-              We will not stop until every car on the road is electric - Elon Musk
-            </h8>
-            <h8>
-              <br />
-              The time is right for electric cars - in fact the time is critical - Carlos Ghosn
-            </h8>
+            <h8> Electric cars are going to be very important for urban transportation - Carlos Ghosn </h8>
+            <h8> We will not stop until every car on the road is electric - Elon Musk </h8>
+            <h8> The time is right for electric cars - in fact the time is critical - Carlos Ghosn </h8>
           </div>
         </div>
       </div>
-
       <section class="estyle2"></section>
-    </div><br> <br> <br>
-    <div class = "power">
+    </div>
+    <br />
 
+    <div class="power">
       <section class="estyle"></section>
-
       <div class="flip-box">
         <div class="flip-box-inner">
           <div class="flip-box-front">
-            <h2>Electric Powertrain</h2><br>
-            <h8 style="margin-right: 10px;">  Long Range and Plaid platforms unite powertrain and battery technologies for unrivaled performance,<br> range and efficiency. New module and pack thermal architecture allows faster charging and gives you more power and endurance in all conditions.</h8>
+            <h2>Electric Powertrain</h2>
+            <br />
+            <h8 style="margin-right: 10px">
+              Long Range and Plaid platforms unite powertrain and battery technologies for unrivaled performance,<br />
+              range and efficiency. New module and pack thermal architecture allows faster charging and gives you more power and endurance in all conditions.
+            </h8>
           </div>
           <div class="flip-box-back">
             <h2>Pro Facts</h2>
-            <h5> <br> Long Range</h5>
-            <h8> <br> Dual Motor All-Wheel Drive platform allows for the longest range, and now delivers insane power and acceleration.</h8>
-
+            <h5>Long Range</h5>
+            <h8>Dual Motor All-Wheel Drive platform allows for the longest range, and now delivers insane power and acceleration.</h8>
           </div>
         </div>
       </div>
-
-      
-    </div> <br>
-    
-    
-    <section class="estyle1"></section>
     </div>
-   
 
-    <div id="the-car-data-table">
-      <div class="selection-btns">
-        <button id="carBtn-pla" class="button">Plaid</button>
-        <button id="carBtn-lr" class="button">Long Range</button>
+    <div class="TheDataDiv">
+      <div id="the-car-data-table">
+        <div class="switch-field">
+          <input class="switcher" type="radio" id="radio-one" name="switch-one" value="Simple" onclick="switchEDIT(event, 'sim-edit')" checked />
+          <label for="radio-one">Plaid</label>
+          <input class="switcher" type="radio" id="radio-two" name="switch-one" value="Trumbowyg" onclick="switchEDIT(event, 'trum-edit')" />
+          <label for="radio-two">Long Range</label>
+        </div>
+        <div id="data-table"></div>
       </div>
-      <div id="data-table"></div>
+      <div>PLACE IMG HERE</div>
     </div>
 
     <div class="pav">
       <h2>Interior view</h2>
       <iframe class="pav" name="360Image" src="https://msnautosblob.akamaized.net/izmo-prod/izmo360/en-us/2015/tesla/model s/pano/izmoPano.html" scrolling="no"></iframe>
-    </div> <br><br>
-  
     </div>
 
     <div class="pav">
@@ -171,7 +160,7 @@
     </div>
 
     <footer class="full-footer">
-      <div class="container top-footer p-md-3 p-1">
+      <div class="container-footer top-footer p-md-3 p-1">
         <div class="row">
           <div class="col-md-3 pl-4 pr-4">
             <img class="img-fluid" src="imgs/logo_text_white_small.png" alt="" />
