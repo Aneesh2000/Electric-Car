@@ -3,9 +3,10 @@ let data1 = [
   ["Acceralation", "1.99sec 0-60mph"],
   ["Top Speed", "200mph"],
   ["Peak Power", "1,020hp"],
-  ["Powertrain", "Tri Motor"],
   ["Weight", "4766 lbs"],
+  ["Powertrain", "Tri Motor"],
   ["Charging Capacity", "250 kW"],
+  ["Ground Clearence", "116mm"],
 ];
 
 let data2 = [
@@ -16,11 +17,12 @@ let data2 = [
   ["Weight", "4,561 lbs"],
   ["Powertrain", "Dual Motor"],
   ["Charging Capacity", "250 kW"],
+  ["Ground Clearence", "116mm"],
 ];
 
 function divTemplate(dataName, dataValue) {
   return `
-  <div class="BLAH">
+  <div class="data-card">
     <h4>${dataName}</h4>
     <p>${dataValue}</p>
   </div>`;
@@ -42,8 +44,8 @@ for (let i = 0; i < data2.length; i++) {
 }
 
 //console.log(GenerateData);
-let plaidBtn = document.getElementById("carBtn-pla");
-let longRanBtn = document.getElementById("carBtn-lr");
+let plaidBtn = document.getElementById("radio-one");
+let longRanBtn = document.getElementById("radio-two");
 let DataDiv = document.getElementById("data-table");
 
 plaidBtn.onclick = () => {
@@ -63,3 +65,18 @@ plaidBtn.click();
 //power-train
 //weight
 //super-charging max
+
+
+function switchEDIT(evt, tabName) {
+  var i, editors, switcher;
+  editors = document.getElementsByClassName("editors");
+  for (i = 0; i < editors.length; i++) {
+    editors[i].style.display = "none";
+  }
+  switcher = document.getElementsByClassName("switcher");
+  for (i = 0; i < switcher.length; i++) {
+    switcher[i].className = switcher[i].className.replace(" now", "");
+  }
+  document.getElementById(tabName).style.display = "block";
+  evt.currentTarget.className += " now";
+}
