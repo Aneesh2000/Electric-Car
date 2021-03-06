@@ -231,3 +231,6 @@
 .button:hover {
   background-color: #ffffff;
 }
+#the-car-data-table {
+  width: 100%;
+}
