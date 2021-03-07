@@ -128,6 +128,44 @@
   font-family: "Open Sans", sans-serif;
 }
 
+
+.front {
+  display: flex;
+  height: 400px;
+  font-size: 15px;
+  background:#1e212a;
+}
+
+.front_1{
+  width: 50%;
+  height: 400px;
+  background-image: url(../images/front.jpeg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  color: white;
+}
+
+.front div{
+  width: 50%;
+  margin-left: 50px;
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  font-size: 18px;
+}
+
+.front div h2{
+  padding: 10px;
+}
+
+.front_2{
+  width: 57%;
+  height: 400px;
+  background-image: url(../images/back.jpeg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  color: white;
+}
+
 .full-footer {
   background-color: #243c4f;
 }
