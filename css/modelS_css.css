@@ -125,6 +125,7 @@
 .container1 {
   width: auto;
   text-align: center;
+  padding: 35px;
 }
 .modelsframe {
   display: flex;
