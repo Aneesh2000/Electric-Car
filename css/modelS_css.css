@@ -299,8 +299,8 @@
 }
 
 .switch-field input:checked + label {
-  background-color: #dd4b4b;
-  color: white;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
   box-shadow: none;
 }
 
