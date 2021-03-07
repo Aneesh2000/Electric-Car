@@ -98,16 +98,23 @@
   height: 600px;
   margin: 0px 15px 10px 15px;
 }
+
+/*---------------------------------------------*/
 .pav1 {
   width: 600px;
   height: 300px;
 }
-.card {
-  margin: 30px;
+
+.pav1 iframe {
+  width: 100%;
+  height: 100%;
+}
+.card_iframe {
+  margin: 30px auto;
   padding: 25px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
-  width: 95%;
+  width: 90%;
   display: flex;
   background-color: #9e9999 !important;
 }
@@ -115,11 +122,9 @@
   background-color: #9e9999 !important;
 }*/
 
-
-
 .container1 {
-  padding: 2px 16px;
-  float: right;
+  width: auto;
+  text-align: center;
 }
 .modelsframe {
   display: flex;
